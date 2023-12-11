@@ -1,0 +1,24 @@
+[package]
+name = "my-project"
+version = "0.1.0"
+authors = ["runner"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+text2num = "1"
+regex = "1.5.4"
+
+[[bin]]
+name = "aoc"
+path = "src/aocDay2_P2.rs"
+
+[[bin__]]
+name = "guess_game"
+path = "src/guessGame.rs"
+
+[[bin_]]
+name = "main"
+path = "src/mainStart.rs"
